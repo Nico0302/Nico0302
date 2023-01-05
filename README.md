@@ -13,7 +13,11 @@
 
 ## 🔨 Technologies I like to work with
 
-<table width="100%"><tr><td valign="top" width="33%">
+<div align="center">
+
+<table width="100%">
+
+<tr><td valign="top">
 
 ### Frontend
 
@@ -24,7 +28,7 @@
 <a href="https://nextjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="50" /></a>  
 </div>
 
-</td><td valign="top" width="33%">
+</td><td valign="top">
 
 ### Backend
 
@@ -35,7 +39,7 @@
 <a href="https://www.postgresql.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/postgresql-original-wordmark.svg" alt="PostgreSQL" height="50" /></a>  
 </div>
 
-</td><td valign="top" width="33%">
+</td><td valign="top">
 
 ### DevOps
 
@@ -47,3 +51,5 @@
 </div>
 
 </td></tr></table>
+
+</div>
