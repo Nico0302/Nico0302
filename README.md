@@ -6,6 +6,6 @@
 	<br>
 	<picture>
 		<source media="(prefers-color-scheme: dark)" srcset="./header_dark.svg">
-		<img alt="< 👋 Hello, World! />" src="./header.svg">
+		<img alt="< 👋 Hello, World! />" src="./header.svg" width="800px" height="400px">
 	</picture>
 </div>
