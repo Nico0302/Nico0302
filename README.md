@@ -5,13 +5,15 @@
 <div align="center">
 	<picture>
 		<source media="(prefers-color-scheme: dark)" srcset="./header_dark.svg">
-		<img alt="< 👋 Hello, World! />" src="./header.svg" width="800px" height="360px">
+		<img alt="< 👋 Hello, World! />" src="./header.svg" width="800px" height="340px">
 	</picture>
 </div>
 
+</br>
+
 ## 🔨 Technologies I like to work with
 
-<table><tr><td valign="top" width="33%">
+<table width="100%"><tr><td valign="top" width="33%">
 
 ### Frontend
 
