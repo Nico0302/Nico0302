@@ -1,0 +1,56 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				.wave {
+          animation: wave-animation ease-in-out 2.5s infinite; /* Never stop waving :) */
+          transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+          display: inline-block;
+        }
+
+        @keyframes wave-animation {
+            0% { transform: rotate( 0.0deg) }
+          10% { transform: rotate(14.0deg) }
+          20% { transform: rotate(-8.0deg) }
+          30% { transform: rotate(14.0deg) }
+          40% { transform: rotate(-4.0deg) }
+          50% { transform: rotate(10.0deg) }
+          65% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
+
+        .greeting:after {
+            animation: greeting-animation linear 12.5s infinite;
+            animation-delay: 1.25s;
+            content: "Hello";
+        }
+
+        @keyframes greeting-animation {
+          0% {
+            content: "Hello";
+          }
+          20% {
+            content: "Ciao";
+          }
+          40% {
+            content: "Hallo";
+          }
+          60% {
+            content: "こんにちは";
+          }
+          80% {
+            content: "Привіт";
+          }
+        }
+
+        h1 { 
+          font-size: 3em; 
+          text-align: center;
+          font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+          color: #c9d1d9;
+        }
+			</style>
+			<h1>&lt; <span class="wave">👋</span> <span class="greeting"></span>, World! /&gt;</h1>
+		</div>
+	</foreignObject>
+</svg>
